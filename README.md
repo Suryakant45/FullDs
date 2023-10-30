@@ -7,7 +7,6 @@ git init
 
 '''
 git add abc.txt
-
 git add.
 '''
 '''
