@@ -30,7 +30,7 @@ def predict_datapoint():
             color= request.form.get('color'),
             clarity = request.form.get('clarity')
         )
-        # this is my final data
+  # this is my final data
         final_data=data.get_data_as_dataframe()
         
         predict_pipeline=PredictPipeline()
@@ -44,3 +44,17 @@ def predict_datapoint():
 #execution begin
 if __name__ == '__main__':
     app.run(host="0.0.0.0",port=8080)
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.run()
