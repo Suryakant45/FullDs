@@ -14,11 +14,17 @@ git commit -m "this is my first commet"
 '''
 
 '''
-git pull
+git pull               ##(new git fill added in vs code file)
 '''
 
 '''
 bash your file_name.sh
+'''
+'''
+##Additional   (if env not create use "source active ./env")
+'''
+'''
+python template.py
 '''
 '''
 python setup.py install
@@ -31,3 +37,10 @@ python setup.py install
 '''
 pip install -r requirements.txt
 '''
+
+'''
+ ###  Additional      python text.py
+'''
+'''
+
+'''source activate ./env
